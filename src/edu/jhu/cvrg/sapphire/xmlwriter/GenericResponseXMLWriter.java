@@ -170,7 +170,7 @@ public class GenericResponseXMLWriter {
 			replytoMsgSQNElement.setAttributeNode(replytoMsgSQNValue);
 
 			ResponseId responseId = header.getResponseId();
-			Element responseIdElement = doc.createElement("responseId");
+			Element responseIdElement = doc.createElement("responseID");
 			headerElement.appendChild(responseIdElement);
 
 			Attr responseIdValue = doc.createAttribute("V");
